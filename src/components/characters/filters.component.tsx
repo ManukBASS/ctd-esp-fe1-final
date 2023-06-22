@@ -10,8 +10,8 @@ import "./filters.css";
 
 /**
  * Characters filter component
- *
- * @returns {React.ReactElement} JSX element
+ * @author Manuel Zarraga
+ * @returns {React.ReactElement} JSX element | Filter
  */
 const Filters: FC = () => {
   const useSelector: TypedUseSelectorHook<IRootState> = useReduxSelector;

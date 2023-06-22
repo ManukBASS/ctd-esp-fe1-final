@@ -11,9 +11,9 @@ import {
 
 /**
  * Button to set favorite state of a character.
- *
+ * @author Manuel Zarraga
  * @param {Character} character
- * @returns {React.ReactElement} JSX element
+ * @returns {React.ReactElement} JSX element | Favorite Button
  *
  */
 const FavoriteButton: FC<{ character: Character }> = ({ character }) => {

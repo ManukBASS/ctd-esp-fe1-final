@@ -4,9 +4,9 @@ import "./card-episode.css";
 
 /**
  * Character episode card
- *
+ * @author Manuel Zarraga
  * @param {{string}} episode
- * @returns {React.ReactElement} JSX element
+ * @returns {React.ReactElement} JSX element | Card Episode
  */
 const CardEpisode: FC<{ episode: Episode }> = ({ episode }) => {
   return (

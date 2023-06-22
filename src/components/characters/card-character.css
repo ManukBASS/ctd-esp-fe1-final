@@ -3,6 +3,13 @@
   flex-direction: column;
   min-height: 363px;
   min-width: 302px;
+  transition: .2s;
+}
+
+.card-character:hover{
+  transition: .2s;
+  transform: scale(1.02);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .card-character > img {
@@ -26,3 +33,4 @@
   justify-content: space-between;
   align-items: center;
 }
+

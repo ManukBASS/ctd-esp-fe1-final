@@ -3,10 +3,10 @@ import "./header.css";
 
 /**
  * Header component
- *
- * @returns {JSX.Element}
+ * @author Manuel Zarraga
+ * @returns {JSX.Element} JSX Component | Header
  */
-const Header = () => {
+const Header = (): JSX.Element => {
   return (
     <header>
       <div>

@@ -11,8 +11,8 @@ import "./grid-characters.css";
 
 /**
  * Character grid for the home page
- *
- * @returns {React.ReactElement} JSX element
+ * @author Manuel Zarraga
+ * @returns {React.ReactElement} JSX element | Character Grid
  */
 const GridCharacters: FC = () => {
   const useSelector: TypedUseSelectorHook<IRootState> = useReduxSelector;

@@ -39,7 +39,7 @@ const DetailPage: FC = () => {
 
   useEffect(() => {
     dispatch(getEpisodesThunk(arrayEpisodeID));
-  }, [arrayEpisodeID]);
+  }, [arrayEpisodeID, dispatch]);
 
   return (
     <div className="container">

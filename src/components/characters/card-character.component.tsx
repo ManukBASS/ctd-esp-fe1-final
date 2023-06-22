@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom";
 
 /**
  * Character card component
- *
+ * @author Manuel Zarraga
  * @param {Character} character
- * @returns {React.ReactElement} JSX element
+ * @returns {React.ReactElement} JSX element | Character Card
  */
 const CharacterCard: FC<{ character: Character }> = ({ character }) => {
   let navigate = useNavigate();

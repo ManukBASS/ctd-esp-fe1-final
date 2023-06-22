@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import {
   TypedUseSelectorHook,
   useDispatch,
@@ -10,15 +10,15 @@ import "./pagination.css";
 
 /**
  * Pagination component
- *
- * @returns {React.ReactElement} JSX element
+ * @author Manuel Zarraga
+ * @returns {React.ReactElement} JSX element | Pagination Function and Buttons
  */
-const Pagination: FC = () => {
+const Pagination: FC = (): React.ReactElement => {
   const useSelector: TypedUseSelectorHook<IRootState> = useReduxSelector;
   const dispatch = useDispatch();
 
   const pageInfo = useSelector((state) => state.characters.pageInfo);
-  const { count, next, pages, prev } = pageInfo;
+  const { next, prev } = pageInfo;
 
   const previusPage = () => {
     dispatch(changePageThunk(prev));
