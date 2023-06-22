@@ -3,9 +3,9 @@ import PageInfo from "../types/pageInfo.types";
 import Character from "../types/character.types";
 
 /**
- *
+ * @author Manuel Zarraga
  * @param {string | undefined} name
- * @returns {Promise<[Character[], PageInfo, number] | [any, any, number]>} Characters and info
+ * @returns {Promise<[Character[], PageInfo, number] | [any, any, number]>} Characters and Info
  */
 export const getCharactersAPI = async (
   name?: string
@@ -24,7 +24,7 @@ export const getCharactersAPI = async (
 };
 
 /**
- *
+ * @author Manuel Zarraga
  * @param {string }url
  * @returns {Promise<[Character[], PageInfo]>} Characters and Info
  */
@@ -37,7 +37,7 @@ export const changePage = async (
 };
 
 /**
- *
+ * @author Manuel Zarraga
  * @param {Array<number>} arrayEpisodeID
  * @returns {Promise<Episode | Episode[]>} All episodes of one character
  */

@@ -10,8 +10,8 @@ import { removeAllFavorite } from "../actions/favorites.actions";
 
 /**
  * Favorites page
- *
- * @returns {React.ReactElement} JSX element
+ * @author Manuel Zarraga
+ * @returns {React.ReactElement} JSX element | Página de Favoritos
  */
 const FavoritePage: FC = () => {
   const dispatch = useDispatch();
@@ -21,7 +21,7 @@ const FavoritePage: FC = () => {
   return (
     <div className="container">
       <div className="actions">
-        <h3>CharactersFavoritos</h3>
+        <h3>Personajes Favoritos</h3>
         <button
           className="danger"
           onClick={() => dispatch(removeAllFavorite())}
@@ -30,7 +30,7 @@ const FavoritePage: FC = () => {
         </button>
       </div>
       {favoriteMap.size === 0 ? (
-        <>No hay favoritos</>
+        <>No tienes personajes favoritos</>
       ) : (
         <div
           style={{

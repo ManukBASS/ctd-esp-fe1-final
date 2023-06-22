@@ -7,8 +7,8 @@ import { useDispatch } from "react-redux";
 
 /**
  * Home page
- *
- * @returns {React.ReactElement} JSX element
+ * @author Manuel Zarraga
+ * @returns {React.ReactElement} JSX element | Home
  */
 const HomePage: FC = () => {
   const dispatch = useDispatch();

@@ -16,7 +16,7 @@ const initialState: EpisodesState = {
 
 /**
  * Episodes reducer
- *
+ * @author Manuel Zarraga
  * @param {State} state
  * @param {DataStore.Reducer<EpisodesState, EpisodesActions>} action
  *

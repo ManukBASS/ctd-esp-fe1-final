@@ -14,8 +14,8 @@ import Episode from "../types/episode.types";
 import { getEpisodesThunk } from "../actions/episodes.actions";
 
 /**
- *
- * @returns {React.ReactElement} JSX element
+ * @author Manuel Zarraga
+ * @returns {React.ReactElement} JSX element | Página de Detalle
  */
 const DetailPage: FC = () => {
   const useSelector: TypedUseSelectorHook<IRootState> = useReduxSelector;
@@ -55,12 +55,12 @@ const DetailPage: FC = () => {
           <FavoriteButton character={character} />
         </div>
       </div>
-      <h4>Lista de episodios donde apareció el character</h4>
+      <h4>Lista de episodios donde apareció el personaje</h4>
       <div className={"episodes-grid"}>
         {status === "LOADING" ? (
-          <div>Cargando characters...</div>
+          <div>Cargando episodios...</div>
         ) : status === "FAILED" ? (
-          <div>No se pudo cargar los characters.</div>
+          <div>No se pudo cargar los episodios.</div>
         ) : !episodes ? (
           <></>
         ) : Array.isArray(episodes) ? (

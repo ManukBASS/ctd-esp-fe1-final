@@ -21,7 +21,7 @@ const initialState: CharactersState = {
 
 /**
  * Characters reducer
- *
+ * @author Manuel Zarraga
  * @param {State} state
  * @param {DataStore.Reducer<CharactersState, CharacterActions>} action
  *
