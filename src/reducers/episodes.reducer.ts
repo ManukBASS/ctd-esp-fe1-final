@@ -20,7 +20,7 @@ const initialState: EpisodesState = {
  * @param {State} state
  * @param {DataStore.Reducer<EpisodesState, EpisodesActions>} action
  *
- * @returns {State}
+ * @returns {State} 
  */
 const episodesReducer: Reducer<EpisodesState, EpisodesActions> = (
   state = initialState,

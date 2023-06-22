@@ -25,7 +25,7 @@ const initialState: CharactersState = {
  * @param {State} state
  * @param {DataStore.Reducer<CharactersState, CharacterActions>} action
  *
- * @returns {State}
+ * @returns {State} 
  */
 const charactersReducer: Reducer<CharactersState, CharacterActions> = (
   state = initialState,

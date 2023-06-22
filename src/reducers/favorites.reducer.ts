@@ -10,6 +10,15 @@ const initialState: StateFavorites = {
   favoritesMapa: new Map(),
 };
 
+/**
+ * Favorites reducer
+ * @author Manuel Zarraga
+ * @param {State} state
+ * @param {DataStore.Reducer<StateFavorites, FavoriteActions>} action
+ *
+ * @returns {State} 
+ */
+
 const favoritesReducer: Reducer<StateFavorites, FavoriteActions> = (
   state = initialState,
   action
