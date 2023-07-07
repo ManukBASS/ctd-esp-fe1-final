@@ -11,7 +11,7 @@ const Header = (): JSX.Element => {
     <header>
       <div>
         <div>
-          <h2>Examen Final de Frontend IV</h2>
+          <h2>API Rick & Morty</h2>
         </div>
         <nav>
           <ul>
